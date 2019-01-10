@@ -3,6 +3,7 @@ var character1 = 0
 var character2 = 0
 var character3 = 0
 var character4 = 0
+
 function question1(answer) {
     if (answer === "Smoking") {
         character1++
@@ -18,21 +19,26 @@ function question1(answer) {
     }
 }
 function question2(answer) {
-    if (answer === "Lungs") {
+    if (answer === "lungs") {
         character1++    
     }
-    else if (answer === "Doritos") {
+    else if (answer === "doritos") {
         character2++
     }
-    else if (answer === "Workers") {
+    else if (answer === "workers") {
         character3++
     }
-    else if (answer === "Normies") {
+    else if (answer === "normies") {
         character4++
     }
 }
 function question3(answer) {
-    if (answer === "")
+    if (answer === "yes"){
+        return ("Awesome!! Another viewer of the checkered shirt bird beaked nose man!!!");
+    }
+    else if (answer === "no"){
+        return ("How dare you take this quiz! Jk it's cool. But not really.");
+    }
 }
 $(document).ready(function() {
     $("button").click(function() {

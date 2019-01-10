@@ -1,3 +1,7 @@
+.question {
+    width:250px;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
